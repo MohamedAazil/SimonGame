@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    justify-content: center;
+}
+
+div{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+.one{
+    background-color: red;
+    border: 0.5rem solid black;
+
+}
+
+.two{
+    background-color: green;
+    border: 0.5rem solid black;
+
+}
+
+.three{
+    
+    background-color: blue;
+    border: 0.5rem solid black;
+
+}
+
+.four{
+    background-color: orange;
+    border: 0.5rem solid black;
+
+}
+
+.flash{
+    background-color: white;
+    border: 0.5rem solid black;
+}
+
+.wrong{
+    background-color: #c60606;
+    color: white;
+}
+
+
+.namediv{
+    background-color: rgba(255, 255, 255, 0.948);
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+.namediv input{
+    height: 2rem;
+    width: 10rem;
+}
